@@ -153,6 +153,8 @@ function draw() {
 		main.depth=1;
 		drone2.depth=2;
 		package.visible=true;
+		package.x=packageBody.position.x;
+	        package.y=packageBody.position.y;
 		if(keyDown(LEFT_ARROW)) {
 			packageBody.position.x= packageBody.position.x-5;
 			drone2.x = drone2.x-5;
